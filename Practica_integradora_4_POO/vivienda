@@ -3,7 +3,7 @@ from habitacion import Habitacion
 class SuperficieCubiertaExcepcion(Exception):
     pass
 
-class vivienda:
+class Vivienda:
     def __init__(self, calle, numero, manzana, nro_casa, sup_terreno):
         self.calle = calle
         self.numero = numero
